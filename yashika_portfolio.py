@@ -52,22 +52,42 @@ if selection == "Home":
 # ---------- ABOUT ME ---------- #
 elif selection == "About Me":
     st.header("👩‍💼 About Me")
-    st.write("""
-    Innovative and driven AI/ML Engineer with 3+ years of hands-on experience building end-to-end solutions in Machine Learning, Generative AI, NLP, and Data Engineering. Adept at designing real-world applications—from AI-driven interview platforms to healthcare diagnostics—powered by deep learning, LLMs, and scalable data pipelines. Holds a filed patent for a novel authentication system, reflecting a strong foundation in problem-solving and originality. Passionate about pushing the boundaries of AI to craft impactful, human-centric solutions that drive automation, enhance decision-making, and bridge the gap between research and real-world use.
+    st.markdown("""
+    Innovative and driven AI/ML Engineer with 3+ years of hands-on experience building end-to-end solutions in Machine
+Learning, Generative AI, NLP, and Data Engineering. Adept at designing real-world applications—from AI-driven
+interview platforms to healthcare diagnostics—powered by deep learning, LLMs, and scalable data pipelines. Holds a
+filed patent for a novel authentication system, reflecting a strong foundation in problem-solving and originality. Passionate
+about pushing the boundaries of AI to craft impactful, human-centric solutions that drive automation, enhance decision-
+making, and bridge the gap between research and real-world use.
+    """)
 
-    **Education:**
-    - MS in Artificial Intelligence, Yeshiva University, New York (2025)
-    - BTech in Computer Science, Galgotias College of Engineering and Technology, India (2021)
+    with st.expander("📚 Education"):
+        st.markdown("""
+- **MS in Artificial Intelligence**, Yeshiva University, New York (2025)  
+- **BTech in Computer Science**, Galgotias College of Engineering and Technology, India (2021)
+        """)
 
-    **Programming Languages:** Python, C, C++, JavaScript, SQL
+    with st.expander("💻 Programming Languages"):
+        st.markdown("""
+Python, C, C++, JavaScript, SQL
+        """)
 
-    **Skills:** Data Analysis, Machine Learning, Deep Learning, Natural Language Processing (NLP), Convolutional Neural Networks (CNN), Automatic Speech Recognition (ASR), Advanced Analytics, Predictive Modeling, Statistics, Mathematics, Exploratory Data Analysis (EDA), Whisper, Large Language Models (LLM), Prompt Engineering, Generative AI, Retrieval-Augmented Generation (RAG), MLOps, CI/CD Pipelines, MySQL, PostgreSQL, Extract-Transform-Load (ETL), HTML5, CSS, Technical Writing and Documentation
+    with st.expander("🧠 Skills"):
+        st.markdown("""
+Data Analysis, Machine Learning, Deep Learning, Natural Language Processing (NLP), Convolutional Neural
+Networks (CNN), Automatic Speech Recognition (ASR), Advanced Analytics, Predictive Modeling, Statistics, Mathe-
+matics, Exploratory Data Analysis (EDA), Whisper, Large Language Models (LLM), Prompt Engineering, Generative
+AI, Retrieval-Augmented Generation (RAG), MLOps, CI/CD Pipelines, MySQL, PostgreSQL, Extract-Transform-Load
+(ETL), HTML5, CSS, Technical Writing and Documentation
+        """)
 
-    **Developer Tools/Cloud:** VS Code, Amazon Apache Airflow (DAGs), Azure Data Factory, AWS, Google Cloud Plat-
+    with st.expander("🛠️ Developer Tools & Cloud"):
+        st.markdown("""
+VS Code, Amazon Apache Airflow (DAGs), Azure Data Factory, AWS, Google Cloud Plat-
 form (GCP), Git, TensorFlow, Streamlit, Tableau, Microsoft Excel, PowerBI, PyTorch, Computer Vision, Anaconda,
 Jupyter, Google Colab, Pandas, Scikit-learn, Matplotlib, Data Pipelines, Databricks
+        """)
 
-    """)
 
 # ---------- PROJECTS ---------- #
 elif selection == "Projects":
@@ -87,7 +107,7 @@ elif selection == "Projects":
 elif selection == "Research":
     st.header("📚 Research & Patent")
     st.markdown("**Google Scholar:** [Visit Profile](https://scholar.google.com/citations?user=KctNEjgAAAAJ&hl=en)")
-    st.markdown("**Patent:** PEHCHAAN - An Authentication System to reduce fake social accounts (Filed: Nov 2020)")
+    st.markdown("**Patent:** PEHCHAAN - An Authentication System and Methods for Social Media Accounts (Filed on Nov 8, 2020, Application No. 202011048750) for effective reduction of fake social media accounts.")
 
 # ---------- CONTACT ---------- #
 elif selection == "Contact":
