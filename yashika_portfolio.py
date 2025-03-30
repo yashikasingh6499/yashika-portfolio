@@ -92,7 +92,7 @@ Jupyter, Google Colab, Pandas, Scikit-learn, Matplotlib, Data Pipelines, Databri
 # ---------- PROJECTS ---------- #
 elif selection == "Projects":
     st.header("🧠 Projects")
-    st.subheader("1. Automatic Teaching via Vision-Language RAG")
+    st.subheader("1. Automatic Teaching via Vision-Language RAG (Ongoing)")
     st.write("Develop a Vision-Language RAG model integrating advanced AI, visual data, and textual information, leveraging open-source models like Whisper and Llama 3.2 11B Vision-Instruct Model to enhance interactive learning and enrich the educational experience.")
 
     st.subheader("2. Drowsiness Detection for Drivers")
