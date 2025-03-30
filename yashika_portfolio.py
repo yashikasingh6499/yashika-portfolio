@@ -61,11 +61,7 @@ elif selection == "About Me":
 
     **Programming Languages:** Python, C, C++, JavaScript, SQL
 
-    **Skills:** Data Analysis, Machine Learning, Deep Learning, Natural Language Processing (NLP), Convolutional Neural
-Networks (CNN), Automatic Speech Recognition (ASR), Advanced Analytics, Predictive Modeling, Statistics, Mathe-
-matics, Exploratory Data Analysis (EDA), Whisper, Large Language Models (LLM), Prompt Engineering, Generative
-AI, Retrieval-Augmented Generation (RAG), MLOps, CI/CD Pipelines, MySQL, PostgreSQL, Extract-Transform-Load
-(ETL), HTML5, CSS, Technical Writing and Documentation
+    **Skills:** Data Analysis, Machine Learning, Deep Learning, Natural Language Processing (NLP), Convolutional Neural Networks (CNN), Automatic Speech Recognition (ASR), Advanced Analytics, Predictive Modeling, Statistics, Mathematics, Exploratory Data Analysis (EDA), Whisper, Large Language Models (LLM), Prompt Engineering, Generative AI, Retrieval-Augmented Generation (RAG), MLOps, CI/CD Pipelines, MySQL, PostgreSQL, Extract-Transform-Load (ETL), HTML5, CSS, Technical Writing and Documentation
 
     **Developer Tools/Cloud:** VS Code, Amazon Apache Airflow (DAGs), Azure Data Factory, AWS, Google Cloud Plat-
 form (GCP), Git, TensorFlow, Streamlit, Tableau, Microsoft Excel, PowerBI, PyTorch, Computer Vision, Anaconda,
@@ -98,7 +94,7 @@ elif selection == "Contact":
     st.header("📬 Contact")
     st.write("📧 yashika6499@gmail.com")
     st.write("🔗 [LinkedIn](https://www.linkedin.com/in/yashika-singh-944700195/)")
-    st.write("💻 [GitHub](https://github.com/yashika6499)")
+    st.write("💻 [GitHub](https://github.com/yashikasingh6499)")
 
 # ---------- FOOTER ---------- #
 st.markdown("---")
