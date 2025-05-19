@@ -45,7 +45,7 @@ if selection == "Home":
         st.image(avatar, width=150)
     with col2:
         st.title("Yashika Singh")
-        st.write("AI/ML Engineer | Former Data Scientist and Data Analsyt @ Axtria | Open to Full-Time AI/ML Roles (OPT)")
+        st.write("AI/ML Engineer | Former Data Scientist and Data Analyst @ Axtria | Open to Full-Time AI/ML Roles (OPT)")
         st.write("Building end-to-end intelligent systems powered by AI and ML")
         pdf_download_button("Yashika_Singh_Resume.pdf", "Download Resume")
 
