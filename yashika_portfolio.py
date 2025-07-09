@@ -92,14 +92,11 @@ Jupyter, Google Colab, Pandas, Scikit-learn, Matplotlib, Data Pipelines, Databri
 # ---------- PROJECTS ---------- #
 elif selection == "Projects":
     st.header("🧠 Projects")
-    st.subheader("1. Automatic Teaching via Vision-Language RAG (Ongoing)")
-    st.write("Develop a Vision-Language RAG model integrating advanced AI, visual data, and textual information, leveraging open-source models like Whisper and Llama 3.2 11B Vision-Instruct Model to enhance interactive learning and enrich the educational experience.")
-
-    st.subheader("2. Drowsiness Detection for Drivers")
+    st.subheader(" Drowsiness Detection for Drivers")
     st.write("Built a CNN-based, real-time system using TensorFlow to detect driver fatigue and improve road safety with validation accuracy around 95%.")
     st.markdown("[📄 Read Paper](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KctNEjgAAAAJ&citation_for_view=KctNEjgAAAAJ:d1gkVwhDpl0C)")
 
-    st.subheader("3. Detection of Cardiomegaly in Dogs")
+    st.subheader(" Detection of Cardiomegaly in Dogs")
     st.write("Created a deep learning model using custom CNN for X-ray analysis and automating veterinary diagnostics with an accuracy of 76.75%, surpassing the benchmark set by VGG16 (75%).")
     st.markdown("[📄 Read Paper](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=KctNEjgAAAAJ&citation_for_view=KctNEjgAAAAJ:u-x6o8ySG0sC)")
 
