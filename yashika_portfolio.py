@@ -45,7 +45,7 @@ if selection == "Home":
         st.image(avatar, width=150)
     with col2:
         st.title("Yashika Singh")
-        st.write("AI/ML Engineer | Former Data Scientist and Data Analyst @ Axtria | Open to Full-Time AI/ML Roles (OPT)")
+        st.write("AI/ML Engineer | MOVE Fellow @ Handshake | Former Data Scientist and Data Analyst @ Axtria | Open to Full-Time AI/ML Roles (OPT)")
         st.write("Building end-to-end intelligent systems powered by AI and ML")
         pdf_download_button("Yashika_Singh_Resume.pdf", "Download Resume")
 
@@ -104,8 +104,7 @@ elif selection == "Projects":
 elif selection == "Research":
     st.header("📚 Research & Patent")
     st.markdown("**Google Scholar:** [Visit Profile](https://scholar.google.com/citations?user=KctNEjgAAAAJ&hl=en)")
-    st.markdown("**Patent:** PEHCHAAN - An Authentication System and Methods for Social Media Accounts (Filed on Nov 8, 2020, Application No. 202011048750) for effective reduction of fake social media accounts.")
-
+    
 # ---------- CONTACT ---------- #
 elif selection == "Contact":
     st.header("📬 Contact")
