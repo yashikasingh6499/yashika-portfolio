@@ -53,12 +53,11 @@ if selection == "Home":
 elif selection == "About Me":
     st.header("👩‍💼 About Me")
     st.markdown("""
-    Innovative and driven AI/ML Engineer with 3+ years of hands-on experience building end-to-end solutions in Machine
-Learning, Generative AI, NLP, and Data Engineering. Adept at designing real-world applications—from AI-driven
-interview platforms to healthcare diagnostics—powered by deep learning, LLMs, and scalable data pipelines. Holds a
-filed patent for a novel authentication system, reflecting a strong foundation in problem-solving and originality. Passionate
-about pushing the boundaries of AI to craft impactful, human-centric solutions that drive automation, enhance decision-
-making, and bridge the gap between research and real-world use.
+    AI/ML Engineer with around 4 years of experience building end-to-end AI products, from LLM-powered applications to ML
+models. Skilled in RAG, prompt engineering, and multimodal AI, with production experience delivering projects at Product
+Manager Accelerator under Dr. Nancy Li, as Lead AI Engineer at Columbia University’s Summer Startup Program and as AI/ML
+Technical Lead for a stealth fashion startup in New York, owning the end-to-end AI architecture and roadmap. Selected for the
+prestigious MOVE Program by Handshake, recognizing top Master’s students for leadership and innovation in technology.
     """)
 
     with st.expander("📚 Education"):
